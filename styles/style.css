@@ -39,7 +39,7 @@ body {
 :root {
     --primary-background: #FFFFFF;
     --secondary-color: #0C0C0C;
-    --text-background: -webkit-linear-gradient(#48bcf1, #fbdd28);
+    --text-background: #9857ff;
 }
 
 h1 {
@@ -228,7 +228,7 @@ p {
 }
 
 .service_1 {
-    border: 1px solid rgb(47, 238, 212);
+    border: 1px solid #c4b6db;
     padding: 15px;
     border-radius: 10px;
     transition: all linear .5s;
@@ -242,8 +242,8 @@ p {
     padding-bottom: 2.2rem;
 }
 
-.service_1:hover {
-    box-shadow: 0px 0px 8px 1px rgb(47 238 212);
+.service_1:hover{
+    box-shadow: 0px 0px 8px 1px rgb(157, 122, 236);
     transform: translateY(-5px);
 }
 
@@ -255,7 +255,7 @@ p {
 }
 
 .service_header h2 span {
-    background: var(--text-background);
+    background-color: #9857FF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -267,6 +267,7 @@ p {
 
 .service_content {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .service_content p {
@@ -447,7 +448,7 @@ p {
 }
 
 .gave_header h4 {
-    color: #f79453;
+    color: #cacbc5;
 }
 
 .shuffle_icon .gave_icon_left {

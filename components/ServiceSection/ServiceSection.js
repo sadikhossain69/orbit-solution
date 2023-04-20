@@ -40,7 +40,7 @@ const ServiceSection = () => {
                                     />
                                 </div>
                                 <div className="service_content">
-                                    <h3>Graphic Design</h3>
+                                    <h3>Graphic Design/UI UX</h3>
                                     <p>Our expert designers can help your Brand Identity.</p>
                                     <p className="laravel">#Photoshop #Illustrator #After effects #Adobe xd.</p>
                                 </div>

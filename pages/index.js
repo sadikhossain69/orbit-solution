@@ -17,9 +17,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>RPM HOST IT LIMITED</title>
-        <meta name="description" content="Welcome To rpmhost
-                                    rpmhost is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. Were dedicated to providing you the best of software and website agency." />
+        <title>Observe Digital Solution</title>
+        <meta name="description" content="Welcome To Observe Digital Solution is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. Were dedicated to providing you the best of software and website agency." />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -37,7 +36,7 @@ export default function Home() {
       <LogoSection />
 
       {/* EMI Section Imported */}
-      <EMISection />
+      {/* <EMISection /> */}
 
       {/* Service Section Imported */}
       <ServiceSection />
