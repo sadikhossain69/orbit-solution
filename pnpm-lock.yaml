@@ -5,7 +5,6 @@ specifiers:
   '@next/font': 13.1.6
   '@react-hook/window-size': ^3.1.1
   '@splidejs/react-splide': ^0.7.12
-  '@trendyol-js/react-carousel': ^3.0.2
   aos: ^2.3.4
   bootstrap: 5.3.0-alpha1
   cogo-toast: ^4.2.3
@@ -26,7 +25,6 @@ dependencies:
   '@next/font': 13.1.6
   '@react-hook/window-size': 3.1.1_react@18.2.0
   '@splidejs/react-splide': 0.7.12
-  '@trendyol-js/react-carousel': 3.0.2_react@18.2.0
   aos: 2.3.4
   bootstrap: 5.3.0-alpha1
   cogo-toast: 4.2.3_biqbaboplfbrettd7655fr4n2y
@@ -377,14 +375,6 @@ packages:
     resolution: {integrity: sha512-4C7nX/dvpzB7za4Ql9K81xK3HPxCpHMgwTZVyf+9JQ6VUbn9jjZVN7/Nkdz/Ugzs2CSjqnL/UPXroiVBVHUWUw==}
     dependencies:
       tslib: 2.5.0
-    dev: false
-
-  /@trendyol-js/react-carousel/3.0.2_react@18.2.0:
-    resolution: {integrity: sha512-V/Z7N2CXEBCNWwJfOGeE9MNfAvWj/eK/KIwoautb8mp/g9pc4ZHCIuRkmH4viUxJiv8f+WTCuPR2HBzZv8+p1w==}
-    peerDependencies:
-      react: ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0
-    dependencies:
-      react: 18.2.0
     dev: false
 
   /@types/estree/1.0.1:
