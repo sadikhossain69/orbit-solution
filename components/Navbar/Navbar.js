@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import React from 'react';
-import company_logo from '@/assets/company_logo.png';
+import orbitLogo from '@/assets/image/orbit_logo.png';
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
@@ -8,8 +9,8 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-md custom_navs">
                 <div className="container">
                     <a className="navbar-brand navbs_logo" href="#">
-                    <Image
-                            src={company_logo}
+                        <Image
+                            src={orbitLogo}
                             alt="company_logo"
                             width={100}
                         />
@@ -36,7 +37,9 @@ const Navbar = () => {
                                 <a className="nav-link" aria-current="page" href="#Team_part">Our Team</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="#contact_part">Contact</a>
+                                <Link href="/contact" className='nav-link'>
+                                    Contact
+                                </Link>
                             </li>
 
 
