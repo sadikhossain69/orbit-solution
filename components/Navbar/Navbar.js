@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import React from 'react';
-import orbitLogo from '@/assets/image/orbit_logo.png';
+import ovserve from '@/assets/image/ovserve.png';
 import Link from 'next/link';
 
 const Navbar = () => {
@@ -10,9 +10,9 @@ const Navbar = () => {
                 <div className="container">
                     <a className="navbar-brand navbs_logo" href="#">
                         <Image
-                            src={orbitLogo}
+                            src={ovserve}
                             alt="company_logo"
-                            width={100}
+                            width={120}
                         />
                     </a>
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

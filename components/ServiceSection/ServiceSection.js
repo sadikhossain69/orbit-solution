@@ -24,7 +24,7 @@ const ServiceSection = () => {
                                     />
                                 </div>
                                 <div className="service_content">
-                                    <h3>Web Development</h3>
+                                    <h3>Web Application</h3>
                                     <p>Get awe-inspiring business-ready web applications & features into production on-time.</p>
                                     <p className="laravel">#Laravel  #Express.js #wordpress #php #react js.</p>
                                 </div>

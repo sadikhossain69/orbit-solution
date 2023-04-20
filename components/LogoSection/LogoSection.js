@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import orbitLogo from '@/assets/image/orbit_logo.png';
+import ovserve from '@/assets/image/ovserve.png';
 import { useWindowSize } from '@react-hook/window-size';
 
 
@@ -18,7 +18,7 @@ const LogoSection = () => {
                         <div className="col-lg col-12 col-md-auto">
                             <div className="logos">
                                 <Image
-                                    src={orbitLogo}
+                                    src={ovserve}
                                     alt="Picture of the Logo5"
                                     width={150}
                                 />
@@ -27,7 +27,7 @@ const LogoSection = () => {
                         <div className="col-lg col-12 col-md-auto">
                             <div className="logos">
                                 <Image
-                                    src={orbitLogo}
+                                    src={ovserve}
                                     alt="Picture of the Logo2"
                                     width={150}
                                 />
@@ -36,7 +36,7 @@ const LogoSection = () => {
                         <div className="col-lg col-12 col-md-auto">
                             <div className="logos">
                                 <Image
-                                    src={orbitLogo}
+                                    src={ovserve}
                                     alt="Picture of the Logo3"
                                     width={150}
                                 />
@@ -45,7 +45,7 @@ const LogoSection = () => {
                         <div className="col-lg col-12 col-md-auto">
                             <div className="logos">
                                 <Image
-                                    src={orbitLogo}
+                                    src={ovserve}
                                     alt="Picture of the Logo4"
                                     width={150}
                                 />
@@ -54,7 +54,7 @@ const LogoSection = () => {
                         <div className="col-lg col-12 col-md-auto">
                             <div className="logos">
                                 <Image
-                                    src={orbitLogo}
+                                    src={ovserve}
                                     alt="Picture of the Logo1"
                                     width={150}
                                 />

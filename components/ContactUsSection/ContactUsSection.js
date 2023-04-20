@@ -105,27 +105,27 @@ const ContactUsSection = () => {
                         <div className="contact_right">
                             <h2>Ready To <span>Start</span> Your Business ?</h2>
                             <h4>Contact and tell us what you needed</h4>
-                            <p> Rpmhost is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. We are dedicated to providing you the best of software and website agency.</p>
+                            <p> Ovserve Digital Solution is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. We are dedicated to providing you the best of software and website agency.</p>
                             <div className="contact_bottom">
                                 <div className="contact_bottom1 d-flex">
                                     <div className="contact_bottom_icons">
                                     <BsFillTelephoneFill className='contact_right_icons'/>
                                     </div>
-                                    <span>+91 70473 84947, +8801737850178, +8801842593133</span>
+                                    <span>+88 01890070302</span>
                                 </div>
                                 <div className="contact_bottom1 d-flex">
                                     <div className="contact_bottom_icons">
                                     <FiMessageSquare className='contact_right_icons' />
                                     </div>
-                                    <span>info@rpmhost.in</span>
+                                    <span>orbitsolution.com</span>
                                 </div>
                                 <div className="contact_bottom1 d-flex">
                                     <div className="contact_bottom_icons">
                                     <GoLocation className='contact_right_icons'/>
                                     </div>
-                                    <span> 5 matha more, Raghunathpur, Ghoradhara, Jhargram, West Bengal 721507</span>
+                                    <span>10 Habiganj,Sylhet Bangladesh</span>
                                 </div>
-                                <p>rpmhost is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. </p>
+                                <p>orbitsolution is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. </p>
                             </div>
 
                         </div>

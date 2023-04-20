@@ -154,7 +154,7 @@ p {
 }
 
 .finish_projects p {
-    font-size: 20px;
+    font-size: 30px;
     font-weight: 700;
     color: var(--primary-background);
 }
@@ -537,7 +537,7 @@ p {
 }
 
 .team_items {
-    border: 2px solid rgb(47, 238, 212);
+    border: 2px solid #c4b6db;
     border-radius: 20px;
     padding: 15px;
     transition: all linear .5s;
@@ -593,7 +593,7 @@ p {
 }
 
 .team_img .overlay {
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 0;
     bottom: 0;
@@ -612,18 +612,16 @@ p {
 }
 
 .team_img:hover .overlay {
-    display: none;
     transform: scale(1);
     opacity: 1;
 }
 
 .overlay a .team_social {
-    display: none;
     margin-right: 10px;
     height: 40px;
     width: 40px;
     background-color: var(--primary-background);
-    /* line-height: 40px; */
+    line-height: 40px;
     padding: 10px;
     text-align: center;
     border-radius: 50%;
@@ -632,7 +630,7 @@ p {
 }
 
 .overlay a .team_social:hover {
-    background-color: rgb(35, 233, 240);
+    background-color: var(--text-background);
     color: var(--primary-background);
 }
 
@@ -722,7 +720,7 @@ p {
 }
 
 .contact_right h4 {
-    color: yellow;
+    color: #ffffbc;
     margin-bottom: 20px;
     font-weight: 600;
 }
@@ -734,10 +732,11 @@ p {
 
 .contact_bottom1 {
     margin-bottom: 24px;
+    color: #ffffbc;
 }
 
 .contact_bottom1 .contact_right_icons {
-    color: yellow;
+    color: #ffffbc ;
     font-size: 22px;
     margin-right: 20px;
     margin-top: 5px;
@@ -815,7 +814,7 @@ p {
 }
 
 .footer_2_items span:hover {
-    color: rgb(243, 89, 84);
+    color: var(--text-background);
 }
 
 .footer_2_items {
@@ -852,7 +851,7 @@ p {
 }
 
 .footer_3_items ul li a:hover {
-    color: rgb(243, 89, 84);
+    color: var(--text-background);
 }
 
 .single_social_icons {

@@ -1,11 +1,11 @@
-import companyLogo from '@/assets/company_logo.png';
 import Image from 'next/image';
-import { BsDribbble, BsFacebook, BsFillTelephoneFill, BsInstagram, BsLinkedin, BsPinterest, BsTwitter } from 'react-icons/bs';
+import { BsBehance, BsDribbble, BsFacebook, BsFillTelephoneFill, BsInstagram, BsLinkedin, BsPinterest, BsTwitter } from 'react-icons/bs';
 import { FiInstagram, FiMessageSquare } from 'react-icons/fi';
 import { FaBuilding, FaFacebookF, FaLinkedinIn } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { GoLocation } from 'react-icons/go';
 import { SiWhatsapp } from 'react-icons/si';
+import ovserve from '@/assets/image/ovserve.png';
 
 const FooterSection = () => {
 
@@ -19,11 +19,11 @@ const FooterSection = () => {
                         <div className="col-lg-3 col-md-6">
                             <div className="footer_1">
                                 <Image
-                                    src={companyLogo}
+                                    src={ovserve}
                                     alt="company logo"
                                     width={100}
                                 />
-                                <p> rpmhost is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. Were dedicated to providing you the best of software and website agency.</p>
+                                <p> Observe Solution is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. Were dedicated to providing you the best of software and website agency.</p>
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 m-0 p-0">
@@ -33,26 +33,26 @@ const FooterSection = () => {
                                     <div className="footer_icons">
                                         <FaBuilding className='single_social_icons_2' size={15} />
                                     </div>
-                                    <span>Rpmhost Ltd</span>
+                                    <span>Observe Digital Solution</span>
                                 </div>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
                                         <GoLocation className='single_social_icons_2' size={15} />
                                     </div>
-                                    <span>FX2W+GF4, Raghunathpur, Ghoradhara, Jhargram, West Bengal 721507</span>
+                                    <span>10 Habiganj,Shylet Bangladesh</span>
                                 </div>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
                                         <BsFillTelephoneFill className='single_social_icons_2' size={15} />
                                     </div>
-                                    <span>+91 70473 84947</span>
+                                    <span>+88 01890070302</span>
                                 </div>
                                 <div className="footer_2_items d-flex">
                                     <div className="footer_icons">
                                         {/* <i className="fa-solid fa-message"></i> */}
                                         <FiMessageSquare className='single_social_icons_2' size={15} />
                                     </div>
-                                    <span>info@rpmhost.in
+                                    <span>orbitsolution.com
                                     </span>
                                 </div>
                             </div>
@@ -62,7 +62,7 @@ const FooterSection = () => {
                                 <h6>Capabilities</h6>
                                 <div className="footer_3_items">
                                     <ul>
-                                        <li><a href="#">Web Development</a></li>
+                                        <li><a href="#">Web Application</a></li>
                                         <li><a href="#">Graphic Design</a></li>
                                         <li><a href="#">App Development</a></li>
                                         <li><a href="#">Seo Marketing</a></li>
@@ -88,7 +88,7 @@ const FooterSection = () => {
                                     <a href="https://www.instagram.com/rpmhost.in/" target={'_blank'} rel="noreferrer">
                                         <FiInstagram className='single_social_icons' size={50} />
                                     </a>
-                                    <a href="#"><BsDribbble className='single_social_icons' size={50} /></a>
+                                    <a href="#"><BsBehance className='single_social_icons' size={50} /></a>
                                 </div>
                             </div>
                         </div>
@@ -99,7 +99,7 @@ const FooterSection = () => {
                 </div>
                 <hr className="hrs" />
                 <div className="footer_copy">
-                    <p>Copyright {presentYear} © Bustic | Powered by Rpmhost It Limited</p>
+                    <p>Copyright {presentYear} © Bustic | Powered by Observe Digital Solution It Limited</p>
                 </div>
             </section>
         </>

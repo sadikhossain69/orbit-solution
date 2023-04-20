@@ -44,7 +44,7 @@ const CounterSection = () => {
                                 <div className="counter_content">
                                     <ScrollTrigger onEnter={() => setIsInViewport(true)}
                                         onExit={() => setIsInViewport(false)}>
-                                        {isInViewport && <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>}
+                                        {isInViewport && <h4><CountUp end={20} duration={2.79} />  <span>+</span></h4>}
                                     </ScrollTrigger>
                                     <h5>Clients</h5>
                                 </div>
@@ -61,7 +61,7 @@ const CounterSection = () => {
                                 <div className="counter_content">
                                     <ScrollTrigger onEnter={() => setIsInViewport(true)}
                                         onExit={() => setIsInViewport(false)}>
-                                        {isInViewport && <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>}
+                                        {isInViewport && <h4><CountUp end={50} duration={2.79} />  <span>+</span></h4>}
                                     </ScrollTrigger>
                                     <h5>Success</h5>
                                 </div>
@@ -78,7 +78,7 @@ const CounterSection = () => {
                                 <div className="counter_content">
                                     <ScrollTrigger onEnter={() => setIsInViewport(true)}
                                         onExit={() => setIsInViewport(false)}>
-                                        {isInViewport && <h4><CountUp end={120} duration={2.79} />  <span>+</span></h4>}
+                                        {isInViewport && <h4><CountUp end={10} duration={2.79} />  <span>+</span></h4>}
                                     </ScrollTrigger>
                                     <h5>Awards</h5>
                                 </div>

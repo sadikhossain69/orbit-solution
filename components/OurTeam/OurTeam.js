@@ -1,11 +1,11 @@
 import React from 'react';
-import Sakkhar from '@/assets/teams1.jpeg';
 import Sadik from '@/assets/teams_3.jpg';
 import Manabendra from '@/assets/teams_3.jpeg';
 import Image from 'next/image';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FiInstagram } from 'react-icons/fi';
+import Sakkhar from '@/assets/image/teams1.jpeg';
 
 const OurTeam = () => {
     return (
@@ -20,13 +20,15 @@ const OurTeam = () => {
                             <div className="team_items team_padding">
                                 <div className="team_img">
                                     <Image
-                                    className='single_team_img'
+                                        className='single_team_img'
                                         src={Sakkhar}
                                         alt="Sakkhar"
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        
+                                        <a href="#"><FaFacebookF color='' className='team_social' /></a>
+                                        <a href="#"><AiFillLinkedin color='' className='team_social' /></a>
+                                        <a href="#"><FiInstagram color='' className='team_social' /></a>
                                     </div>
                                 </div>
                                 <div className="team_content">
@@ -41,12 +43,14 @@ const OurTeam = () => {
                                 <div className="team_img">
                                     <Image
                                         className='single_team_img'
-                                        src={Sadik}
-                                        alt="Sadik"
+                                        src={Sakkhar}
+                                        alt="Sakkhar"
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        
+                                        <a href="#"><FaFacebookF color='' className='team_social' /></a>
+                                        <a href="#"><AiFillLinkedin color='' className='team_social' /></a>
+                                        <a href="#"><FiInstagram color='' className='team_social' /></a>
                                     </div>
                                 </div>
                                 <div className="team_content">
@@ -60,19 +64,21 @@ const OurTeam = () => {
                             <div className="team_items">
                                 <div className="team_img">
                                     <Image
-                                    className='single_team_img'
-                                        src={Manabendra}
-                                        alt="Manabendra"
+                                        className='single_team_img'
+                                        src={Sakkhar}
+                                        alt="Sakkhar"
                                         width={350}
                                     />
                                     <div className="overlay">
-                                        
+                                        <a href="#"><FaFacebookF color='' className='team_social' /></a>
+                                        <a href="#"><AiFillLinkedin color='' className='team_social' /></a>
+                                        <a href="#"><FiInstagram color='' className='team_social' /></a>
                                     </div>
                                 </div>
                                 <div className="team_content">
-                                    <h3>Manabendra Singa</h3>
-                                    <h4>Founder & Full Stack Developer</h4>
-                                    <p>Hello, my name is Manabendra and I am a fullstack  developer. I have been working as a developer for 3 in rpmhost and I have been enjoying every moment of it.</p>
+                                    <h3>Utpal Roy</h3>
+                                    <h4>Founder & App Developer</h4>
+                                    <p>I am Utpal Roy and I am a fullstack  developer. I have been working as a developer for 3 in ObserveSolution and I have been enjoying every moment of it.</p>
                                 </div>
                             </div>
                         </div>
