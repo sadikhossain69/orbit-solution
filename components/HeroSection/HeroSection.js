@@ -1,4 +1,5 @@
 import Banner1 from '@/assets/banner1.png';
+import orbitBanner from '@/assets/image/orbit_banner.png';
 import Image from 'next/image';
 
 const HeroSection = () => {
@@ -20,7 +21,7 @@ const HeroSection = () => {
                             <div className="hero_right">
                                 <Image
                                     className='hero_right_img'
-                                    src={Banner1}
+                                    src={orbitBanner}
                                     alt="Picture of the Banner1"
                                     width={500}
                                     priority={true}

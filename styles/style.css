@@ -119,7 +119,7 @@ p {
 }
 
 .hero_left h1 span {
-    background: var(--text-background);
+    background-color: #9857FF;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -143,7 +143,7 @@ p {
 
 .finish_projects {
     position: absolute;
-    background-image: linear-gradient(rgb(187 177 207 / 8%), rgb(178 79 219 / 86%));
+    background-image: linear-gradient(rgba(239, 247, 133, 0.08), rgba(231, 219, 44, 0.86));
     width: 125px;
     padding: 15px 0;
     text-align: center;
