@@ -120,6 +120,11 @@
         height: 360px;
     }
 
+    /* logo part css */
+    #logo_part {
+        padding: 0;
+    }
+
     /* counter part css */
     #counter_part {
         padding-top: 130px;
@@ -276,7 +281,7 @@
 
     /* navbar css */
 
-    
+
     .navbs_logo img {
         max-width: 100px;
     }
@@ -306,7 +311,7 @@
     }
 
     .finish_projects {
-        bottom: -3%;
+        bottom: 0%;
         right: 3%;
     }
 
@@ -480,13 +485,15 @@
     #logo_part {
         padding: 35px 0 40px 0;
     }
+
     .logos {
         margin: 0 0 30px 0;
     }
 
-    .arrow_button{
+    .arrow_button {
         display: none;
     }
+
     .left_arrow {
         display: none;
     }
@@ -617,6 +624,7 @@
         margin-bottom: 30px;
         font-size: 32px;
     }
+
     #payment {
         padding: 35px 0 0px 0;
     }
@@ -692,9 +700,13 @@
         margin-left: 0;
     }
 
-     /* emi */
-     .emi_pff{
+    /* emi */
+    .emi_pff {
         margin-left: 0;
+    }
+
+    .logos_last {
+        display: none;
     }
 }
 
@@ -754,8 +766,13 @@
     }
 
     .logos img {
-        margin-bottom: 16px;
+        margin-bottom: 26px;
     }
+
+    .logos img {
+        max-width: 100px;
+    }
+
 
     /* logo part css */
 
@@ -978,6 +995,7 @@
     .footer_copy p {
         font-size: 14px;
     }
+
     /* payment part start */
     .payment_header h2 {
         font-size: 33px;

@@ -41,68 +41,68 @@ const LogoSection = () => {
         <>
             <section id="logo_part">
                 <div className="container logo_position">
-                    <div className="">
+                    <div class="logo_header">
+                        <div class="our_client text-center">
+                            <h4>our previous <span>client</span></h4>
+                        </div>
+                    </div>
+                    <div className="row">
 
 
-                        <AwesomeSlider>
-                            <div className="col-lg col-12 col-md-auto">
-                                <div className="logos">
-                                    <Image
-                                        src={ovserve}
-                                        alt="Picture of the Logo5"
-                                        width={150}
-                                    />
-                                </div>
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos">
+                                <Image
+                                    className='img-fluid'
+                                    src={ovserve}
+                                    alt="Picture of the Logo5"
+                                    width={150}
+                                />
                             </div>
-                            <div className="col-lg col-12 col-md-auto">
-                                <div className="logos">
-                                    <Image
-                                        src={ovserve}
-                                        alt="Picture of the Logo2"
-                                        width={150}
-                                    />
-                                </div>
+                        </div>
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos">
+                                <Image
+                                className='img-fluid'   
+                                    src={ovserve}
+                                    alt="Picture of the Logo2"
+                                    width={150}
+                                />
                             </div>
-                            <div className="col-lg col-12 col-md-auto">
-                                <div className="logos">
-                                    <Image
-                                        src={ovserve}
-                                        alt="Picture of the Logo3"
-                                        width={150}
-                                    />
-                                </div>
+                        </div>
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos">
+                                <Image
+                                className='img-fluid'
+                                    src={ovserve}
+                                    alt="Picture of the Logo3"
+                                    width={150}
+                                />
                             </div>
-                            <div className="col-lg col-12 col-md-auto">
-                                <div className="logos">
-                                    <Image
-                                        src={ovserve}
-                                        alt="Picture of the Logo4"
-                                        width={150}
-                                    />
-                                </div>
+                        </div>
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos">
+                                <Image
+                                className='img-fluid'
+                                    src={ovserve}
+                                    alt="Picture of the Logo4"
+                                    width={150}
+                                />
                             </div>
-                            <div className="col-lg col-12 col-md-auto">
-                                <div className="logos">
-                                    <Image
-                                        src={ovserve}
-                                        alt="Picture of the Logo1"
-                                        width={150}
-                                    />
-                                </div>
+                        </div>
+                        <div className="col-lg col-6 col-md-auto">
+                            <div className="logos logos_last">
+                                <Image
+                                className='img-fluid'
+                                    src={ovserve}
+                                    alt="Picture of the Logo1"
+                                    width={150}
+                                />
                             </div>
-                            <div className="col-lg col-12 col-md-auto">
-                                <div className="logos">
-                                    <Image
-                                        src={ovserve}
-                                        alt="Picture of the Logo1"
-                                        width={150}
-                                    />
-                                </div>
-                            </div>
-                        </AwesomeSlider>
+                        </div>
+                        
 
 
-                        \                    </div>
+                                            </div>
                 </div>
             </section>
         </>
