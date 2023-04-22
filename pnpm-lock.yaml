@@ -12,13 +12,14 @@ specifiers:
   eslint-config-next: 13.1.6
   next: 13.1.6
   react: 18.2.0
+  react-awesome-slider: ^4.1.0
   react-countup: ^6.4.1
   react-dom: 18.2.0
   react-hook-form: ^7.43.0
   react-icons: ^4.7.1
   react-scroll-trigger: ^0.6.14
   react-slick: ^0.29.0
-  swiper: ^9.0.4
+  slick-carousel: ^1.8.1
 
 dependencies:
   '@emailjs/browser': 3.11.0
@@ -32,13 +33,14 @@ dependencies:
   eslint-config-next: 13.1.6_eslint@8.33.0
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
   react: 18.2.0
+  react-awesome-slider: 4.1.0
   react-countup: 6.4.2_react@18.2.0
   react-dom: 18.2.0_react@18.2.0
   react-hook-form: 7.43.9_react@18.2.0
   react-icons: 4.8.0_react@18.2.0
   react-scroll-trigger: 0.6.14_biqbaboplfbrettd7655fr4n2y
   react-slick: 0.29.0_biqbaboplfbrettd7655fr4n2y
-  swiper: 9.2.3
+  slick-carousel: 1.8.1
 
 packages:
 
@@ -1986,6 +1988,12 @@ packages:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==}
     dev: false
 
+  /react-awesome-slider/4.1.0:
+    resolution: {integrity: sha512-cbPI1MTpVLKbEH6gf9bwtJb8Ja6R/YJonKbUQehfq2B2AAJkgDMeHntaa4SgGCRqWd55xKiT+CkjfKau1QRsKw==}
+    dependencies:
+      web-animation-club: 0.6.0
+    dev: false
+
   /react-countup/6.4.2_react@18.2.0:
     resolution: {integrity: sha512-wdDrNb2lPFGbLb+i0FTgswPbWziubS6KZRII8NRpXmUCoZsi15PFbIHgBz60Dyxd4KPuRvwsK5aawIU4OPP3jA==}
     peerDependencies:
@@ -2188,13 +2196,15 @@ packages:
     engines: {node: '>=12'}
     dev: false
 
+  /slick-carousel/1.8.1:
+    resolution: {integrity: sha512-XB9Ftrf2EEKfzoQXt3Nitrt/IPbT+f1fgqBdoxO3W/+JYvtEOW6EgxnWfr9GH6nmULv7Y2tPmEX3koxThVmebA==}
+    peerDependencies:
+      jquery: '>=1.8.0'
+    dev: false
+
   /source-map-js/1.0.2:
     resolution: {integrity: sha512-R0XvVJ9WusLiqTCEiGCmICCMplcCkIwwR11mOSD9CR5u+IXYdiseeEuXCVAjS54zqwkLcPNnmU4OeJ6tUrWhDw==}
     engines: {node: '>=0.10.0'}
-    dev: false
-
-  /ssr-window/4.0.2:
-    resolution: {integrity: sha512-ISv/Ch+ig7SOtw7G2+qkwfVASzazUnvlDTwypdLoPoySv+6MqlOV10VwPSE6EWkGjhW50lUmghPmpYZXMu/+AQ==}
     dev: false
 
   /stop-iteration-iterator/1.0.0:
@@ -2292,13 +2302,6 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /swiper/9.2.3:
-    resolution: {integrity: sha512-hxqcjIsYPP1fv+KIXPqGywl6ik8RBp0y0i9+TOIh55ca6SpZ5FrgNJ4QXPhsl6mlSBMEYPmh5zOKtZpI8zpWeQ==}
-    engines: {node: '>= 4.7.0'}
-    dependencies:
-      ssr-window: 4.0.2
-    dev: false
-
   /synckit/0.8.5:
     resolution: {integrity: sha512-L1dapNV6vu2s/4Sputv8xGsCdAVlb5nRDMFU/E27D44l5U6cw1g0dGd45uLc+OXjNMmF4ntiMdCimzcjFKQI8Q==}
     engines: {node: ^14.18.0 || >=16.0.0}
@@ -2394,6 +2397,11 @@ packages:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
     dependencies:
       punycode: 2.3.0
+    dev: false
+
+  /web-animation-club/0.6.0:
+    resolution: {integrity: sha512-9W+EQu1HiaPLe/7WZlhJ2ULqQ4VL80RPDYW+ZcjfTKp6ayOuT1k3SVO6+tu0VBRmOqueJ/mrG+rjjInIv8Aglg==}
+    deprecated: 'WARNING: This project has been renamed to @rcaferati/wac; install it using @rcaferati/wac instead.'
     dev: false
 
   /which-boxed-primitive/1.0.2:
