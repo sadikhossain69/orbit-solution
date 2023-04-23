@@ -1,6 +1,4 @@
 /* Importing the image from the assets folder. */
-import project1 from '@/assets/project1.png';
-import project2 from '@/assets/project2.png';
 import project3 from '@/assets/project_3.png';
 import project4 from '@/assets/project4.png';
 import project5 from '@/assets/project_5.png';
@@ -18,7 +16,7 @@ const LatestProject = () => {
                         <h2>Latest <span>Projects</span></h2>
                     </div>
                     <div className="row">
-                        <div  className="col-lg-4 col-md-6">
+                        <div data-aos="fade-up" className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image 
@@ -33,7 +31,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  className="col-lg-4 col-md-6">
+                        <div data-aos="fade-up" className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -47,7 +45,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  className="col-lg-4 col-md-6">
+                        <div data-aos="fade-up" className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -61,7 +59,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  className="col-lg-4 col-md-6">
+                        <div data-aos="zoom-in" className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -75,7 +73,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  className="col-lg-4 col-md-6">
+                        <div data-aos="zoom-in" className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -89,7 +87,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div  className="col-lg-4 col-md-6">
+                        <div data-aos="zoom-in" className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image

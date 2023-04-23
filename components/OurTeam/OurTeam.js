@@ -45,9 +45,9 @@ const OurTeam = () => {
                     <div className="Team_header">
                         <h2>Our <span>Team</span></h2>
                     </div>
-                    <div className="row column-gap-2">
+                    <div className="row">
                         <Slider {...settings}>
-                            <div className="col-lg-4 col-sm-6 py-4 ">
+                            <div className="col-lg-4 col-sm-6 py-4  ">
                                 <div className="team_items team_padding">
                                     <div className="team_img">
                                         <Image
@@ -69,7 +69,29 @@ const OurTeam = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 py-4 ">
+                            <div className="col-lg-4 col-sm-6 py-4  ">
+                                <div className="team_items team_padding">
+                                    <div className="team_img">
+                                        <Image
+                                            className='single_team_img'
+                                            src={Sakkhar}
+                                            alt="Sakkhar"
+                                            width={350}
+                                        />
+                                        <div className="overlay">
+                                            <a href="#"><FaFacebookF color='' className='team_social' /></a>
+                                            <a href="#"><AiFillLinkedin color='' className='team_social' /></a>
+                                            <a href="#"><FiInstagram color='' className='team_social' /></a>
+                                        </div>
+                                    </div>
+                                    <div className="team_content">
+                                        <h3>Sakkhar Majumder</h3>
+                                        <h4>Web Designer</h4>
+                                        <p>I am a proffesional web designer with 1 years experience. I believe only self-confidence will help me reach my goals.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-lg-4 col-sm-6 py-4  ">
                                 <div className="team_items team_padding">
                                     <div className="team_img">
                                         <Image
