@@ -18,7 +18,7 @@ const LatestProject = () => {
                         <h2>Latest <span>Projects</span></h2>
                     </div>
                     <div className="row">
-                        <div data-aos="fade-right" className="col-lg-4 col-md-6">
+                        <div  className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image 
@@ -33,7 +33,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-down" className="col-lg-4 col-md-6">
+                        <div  className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -47,7 +47,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-left" className="col-lg-4 col-md-6">
+                        <div  className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -61,7 +61,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-right" className="col-lg-4 col-md-6">
+                        <div  className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -75,7 +75,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-up" className="col-lg-4 col-md-6">
+                        <div  className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
@@ -89,7 +89,7 @@ const LatestProject = () => {
                                 </div>
                             </div>
                         </div>
-                        <div data-aos="fade-left" className="col-lg-4 col-md-6">
+                        <div  className="col-lg-4 col-md-6">
                             <div className="latest_Items">
                                 <div className="latest_img">
                                     <Image
