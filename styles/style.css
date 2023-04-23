@@ -554,7 +554,8 @@ p {
 }
 
 .team_padding {
-    padding-bottom: 43px;
+    padding-bottom: 34px;
+    margin-right: 20px;
 }
 
 .team_items:hover {
@@ -572,6 +573,8 @@ p {
     border-top-right-radius: 10px;
     height: fit-content;
 }
+
+
 
 .team_content h3 {
     color: var(--primary-background);
