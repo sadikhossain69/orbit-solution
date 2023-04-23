@@ -1,6 +1,4 @@
 import React from 'react';
-import Sadik from '@/assets/teams_3.jpg';
-import Manabendra from '@/assets/teams_3.jpeg';
 import Image from 'next/image';
 import { FaFacebookF } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
