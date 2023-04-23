@@ -45,9 +45,9 @@ const OurTeam = () => {
                     <div className="Team_header">
                         <h2>Our <span>Team</span></h2>
                     </div>
-                    <div className="row">
+                    <div className="row column-gap-2">
                         <Slider {...settings}>
-                            <div className="col-lg-4 col-sm-6 py-4">
+                            <div className="col-lg-4 col-sm-6 py-4 ">
                                 <div className="team_items team_padding">
                                     <div className="team_img">
                                         <Image
@@ -69,7 +69,7 @@ const OurTeam = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 py-4">
+                            <div className="col-lg-4 col-sm-6 py-4 ">
                                 <div className="team_items team_padding">
                                     <div className="team_img">
                                         <Image
@@ -91,7 +91,7 @@ const OurTeam = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-4 col-sm-6 py-4">
+                            <div className="col-lg-4 col-sm-6 py-4 ">
                                 <div className="team_items">
                                     <div className="team_img">
                                         <Image
