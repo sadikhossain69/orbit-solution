@@ -187,6 +187,12 @@ p {
     text-align: center;
 }
 
+.lgos_align {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .logos img {
     /* max-width: 130px; */
     align-items: center;

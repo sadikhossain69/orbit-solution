@@ -4,6 +4,9 @@ import { FaFacebookF } from 'react-icons/fa';
 import { AiFillLinkedin } from 'react-icons/ai';
 import { FiInstagram } from 'react-icons/fi';
 import Sakkhar from '@/assets/image/teams1.jpeg';
+import Setu from '@/assets/Team/myteam_one.jpg';
+import Shiplu from '@/assets/Team/IMG_3440.jpg';
+import Utpal from '@/assets/Team/pal.jpeg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -74,8 +77,8 @@ const OurTeam = () => {
                                     <div className="team_img">
                                         <Image
                                             className='single_team_img'
-                                            src={Sakkhar}
-                                            alt="Sakkhar"
+                                            src={Setu}
+                                            alt="Setu"
                                             width={350}
                                         />
                                         <div className="overlay">
@@ -96,8 +99,8 @@ const OurTeam = () => {
                                     <div className="team_img">
                                         <Image
                                             className='single_team_img'
-                                            src={Sakkhar}
-                                            alt="Sakkhar"
+                                            src={Shiplu}
+                                            alt="Shiplu"
                                             width={350}
                                         />
                                         <div className="overlay">
@@ -118,8 +121,8 @@ const OurTeam = () => {
                                     <div className="team_img">
                                         <Image
                                             className='single_team_img'
-                                            src={Sakkhar}
-                                            alt="Sakkhar"
+                                            src={Utpal}
+                                            alt="Utpal"
                                             width={350}
                                         />
                                         <div className="overlay">
