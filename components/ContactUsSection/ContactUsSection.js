@@ -37,7 +37,7 @@ const ContactUsSection = () => {
             })
 
         console.log(data, message)
-        // reset()
+        reset()
     }
 
     return (
