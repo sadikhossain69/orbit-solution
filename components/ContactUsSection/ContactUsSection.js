@@ -26,7 +26,7 @@ const ContactUsSection = () => {
             message: message
         }
 
-        emailjs.send('service_bt81aau', 'template_c0rx2js', emailTemplateParams, '5U2LXCuzS0zCM_ZRJ')
+        emailjs.send('service_mc2zm3g', 'template_5mfkjkk', emailTemplateParams, 'iROz--EXuzLU_vaJ7')
             .then(res => {
                 if (res.status === 200) {
                     cogoToast.success('Message sent successfully')
