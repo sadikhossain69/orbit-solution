@@ -1,4 +1,3 @@
-import Banner1 from '@/assets/banner1.png';
 import orbitBanner from '@/assets/image/orbit_banner.png';
 import Image from 'next/image';
 

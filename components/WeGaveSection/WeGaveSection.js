@@ -1,5 +1,5 @@
 import React from 'react';
-import gaveOffer from '@/assets/gave_offer.png';
+import gaveOffer from '@/assets/image/gave_offer.png';
 import Image from 'next/image';
 import { AiFillStar } from 'react-icons/ai';
 import { BsFillTelephoneFill } from 'react-icons/bs';

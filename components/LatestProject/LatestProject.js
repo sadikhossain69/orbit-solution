@@ -1,8 +1,8 @@
 /* Importing the image from the assets folder. */
-import project3 from '@/assets/project_3.png';
-import project4 from '@/assets/project4.png';
-import project5 from '@/assets/project_5.png';
-import project6 from '@/assets/project7.png';
+import project3 from '@/assets/image/project_3.png';
+import project4 from '@/assets/image/project4.png';
+import project5 from '@/assets/image/project_5.png';
+import project6 from '@/assets/image/project7.png';
 import project7 from "@/assets/Icons/new_project1.png"
 import project8 from "@/assets/Icons/new_project2.png"
 import Image from 'next/image';

@@ -1,7 +1,7 @@
-import service1 from '@/assets/service1.png';
-import service2 from '@/assets/service2.png';
-import service3 from '@/assets/service3.png';
-import service_4 from '@/assets/service_4.png';
+import service1 from '@/assets/image/service1.png';
+import service2 from '@/assets/image/service2.png';
+import service3 from '@/assets/image/service3.png';
+import service_4 from '@/assets/image/service_4.png';
 import Image from 'next/image';
 
 

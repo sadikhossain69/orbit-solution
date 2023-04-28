@@ -1,5 +1,4 @@
 import Image from 'next/image';
-import Payment_Banner from '../../assets/Icons/payment_banner.png';
 
 const EMISection = () => {
     return (
@@ -11,11 +10,7 @@ const EMISection = () => {
                     </div>
                     <div className="col-lg-8 offset-2 emi_pff">
                         <div className="emi_img">
-                            <Image
-                            className='img-fluid'
-                            src={Payment_Banner} 
-                            alt="Payment Banner"
-                            />
+                            
                             {/* <img src="image/payment_banner.png" alt="" srcset=""/> */}
                         </div>
                     </div>

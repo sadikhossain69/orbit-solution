@@ -3,8 +3,6 @@ import ovserve from '@/assets/image/ovserve.png';
 import { useWindowSize } from '@react-hook/window-size';
 import Slider from 'react-slick';
 import { IoIosArrowBack, IoIosArrowForward } from 'react-icons/io';
-import AwesomeSlider from 'react-awesome-slider';
-import 'react-awesome-slider/dist/styles.css';
 
 
 const LogoSection = () => {
