@@ -6,7 +6,7 @@ import { FiInstagram } from 'react-icons/fi';
 import Sakkhar from '@/assets/image/teams1.jpeg';
 import Setu from '@/assets/Team/myteam_one.jpg';
 import Shiplu from '@/assets/Team/IMG_3440.jpg';
-import Utpal from '@/assets/Team/pal.jpeg';
+import Utpal from '@/assets/Team/utpal.jpg';
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -88,9 +88,9 @@ const OurTeam = () => {
                                         </div>
                                     </div>
                                     <div className="team_content">
-                                        <h3>Sakkhar Majumder</h3>
-                                        <h4>Web Designer</h4>
-                                        <p>I am a proffesional web designer with 1 years experience. I believe only self-confidence will help me reach my goals.</p>
+                                        <h3>Setu Saha</h3>
+                                        <h4>Wordpress Developer</h4>
+                                        <p>I am a proffesional wordpress developer with 1 years experience. I believe only self-confidence will help me reach my goals.</p>
                                     </div>
                                 </div>
                             </div>
@@ -110,9 +110,9 @@ const OurTeam = () => {
                                         </div>
                                     </div>
                                     <div className="team_content">
-                                        <h3>Sadik Joarder</h3>
-                                        <h4>Mern Stack Developer</h4>
-                                        <p>I am a proffesional web designer with 1 years experience. I believe only self-confidence will help me reach my goals.</p>
+                                        <h3>Shiplu Roy</h3>
+                                        <h4>UI/UX & Graphic Designer</h4>
+                                        <p>I am a proffesional ui/ux & graphic desinger with 1 years experience. I believe only self-confidence will help me reach my goals.</p>
                                     </div>
                                 </div>
                             </div>

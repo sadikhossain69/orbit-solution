@@ -76,8 +76,8 @@ const FooterSection = () => {
                             <div className="footer_4">
                                 <h6>Our Social Media</h6>
                                 <div className="social_iconss">
-                                    <a target={"_blank"} rel="noreferrer" href="https://www.facebook.com/rpmhost.in"> <FaFacebookF className='single_social_icons' /> </a>
-                                    <a target={'_blank'} rel="noreferrer" href="https://www.linkedin.com/in/rpm-host-59a06a264/"><AiFillLinkedin
+                                    <a target={"_blank"} rel="noreferrer" href="https://www.facebook.com/profile.php?id=100091919472998"> <FaFacebookF className='single_social_icons' /> </a>
+                                    <a target={'_blank'} rel="noreferrer" href="https://shorturl.at/pvyJV"><AiFillLinkedin
                                         className='single_social_icons' size={50}
                                     /></a>
                                     <a href="#">
@@ -85,7 +85,7 @@ const FooterSection = () => {
                                             className='single_social_icons' size={50}
                                         />
                                     </a>
-                                    <a href="https://www.instagram.com/rpmhost.in/" target={'_blank'} rel="noreferrer">
+                                    <a href="https://shorturl.at/ERV16" target={'_blank'} rel="noreferrer">
                                         <FiInstagram className='single_social_icons' size={50} />
                                     </a>
                                     <a href="#"><BsBehance className='single_social_icons' size={50} /></a>
@@ -93,7 +93,7 @@ const FooterSection = () => {
                             </div>
                         </div>
                     </div>
-                    <a href="https://wa.me/917047384947" target={'_blank'} rel="noreferrer">
+                    <a href="https://wa.me/+8801890070302" target={'_blank'} rel="noreferrer">
                         <SiWhatsapp className='whatsapp_icon' size={50} />
                     </a>
                 </div>

@@ -97,7 +97,7 @@ p {
 }
 
 .navbar_items .nav-item .nav-link:hover {
-    color: red;
+    color: var(--text-background);
 }
 
 /* navbar css end */
