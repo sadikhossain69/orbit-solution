@@ -125,7 +125,7 @@ const ContactUsSection = () => {
                                     </div>
                                     <span>10 Habiganj,Sylhet Bangladesh</span>
                                 </div>
-                                <p>orbitsolution is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. </p>
+                                <p>observedigitalsolution is a Professional software and website agency Platform. Here we will provide you only interesting content, which you will like very much. </p>
                             </div>
 
                         </div>

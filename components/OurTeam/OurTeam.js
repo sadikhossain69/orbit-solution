@@ -112,7 +112,7 @@ const OurTeam = () => {
                                     <div className="team_content">
                                         <h3>Shiplu Roy</h3>
                                         <h4>UI/UX & Graphic Designer</h4>
-                                        <p>I am a proffesional ui/ux & graphic desinger with 1 years experience. I believe only self-confidence will help me reach my goals.</p>
+                                        <p>I am a proffesional ui/ux & graphic desinger with 1 years experience.</p>
                                     </div>
                                 </div>
                             </div>
